@@ -16,6 +16,11 @@ std::string Customer::getName(void) {
 	return name;
 }
 
+/*
+ * The two juicy functions below could be broken down further in similar
+ * fashion to what I did with promptAgain (hey, I wanted to learn something from this)
+ */
+
 void Customer::setAccountBalance(int _amount) {
 	try {
 		if (_amount < 0) {
